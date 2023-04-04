@@ -6,16 +6,8 @@ import android.net.Uri
 import android.os.Build
 import android.provider.MediaStore
 import androidx.core.content.FileProvider
-import com.github.noledger.imagepicker.R
+import com.github.dhaval2404.imagepicker.R
 import java.io.File
-
-/**
- * Get Gallery/Camera Intent
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2018
- */
 object IntentUtils {
 
     /**
@@ -72,7 +64,6 @@ object IntentUtils {
         val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            // authority = com.github.dhaval2404.imagepicker.provider
             val authority =
                 context.packageName + context.getString(R.string.image_picker_provider_authority_suffix)
             val photoURI = FileProvider.getUriForFile(context, authority, file)

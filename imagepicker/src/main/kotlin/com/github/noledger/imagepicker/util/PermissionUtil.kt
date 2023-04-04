@@ -3,14 +3,6 @@ package com.github.noledger.imagepicker.util
 import android.content.Context
 import android.content.pm.PackageManager
 import androidx.core.content.ContextCompat
-
-/**
- * Permission utility class
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 object PermissionUtil {
 
     /**

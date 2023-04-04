@@ -9,14 +9,6 @@ import com.github.noledger.imagepicker.listener.DismissListener
 import com.github.noledger.imagepicker.listener.ResultListener
 import com.github.noledger.imagepicker.util.DialogHelper
 import java.io.File
-
-/**
- * Create Image Picker Object
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 open class ImagePicker {
 
     companion object {

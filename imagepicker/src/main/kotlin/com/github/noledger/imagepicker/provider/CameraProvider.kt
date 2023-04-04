@@ -14,14 +14,6 @@ import com.github.noledger.imagepicker.util.FileUtil
 import com.github.noledger.imagepicker.util.IntentUtils
 import com.github.noledger.imagepicker.util.PermissionUtil
 import java.io.File
-
-/**
- * Capture new image using camera
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 class CameraProvider(activity: ImagePickerActivity) : BaseProvider(activity) {
 
     companion object {

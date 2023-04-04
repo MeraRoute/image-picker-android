@@ -1,13 +1,4 @@
 package com.github.noledger.imagepicker.listener
-
-/**
- * Interface used to allow the creator of a dialog to run some code when the
- * dialog is dismissed.
- *
- * @author Dhaval Patel
- * @version 1.8
- * @since 19 December 2020
- */
 interface DismissListener {
 
     /**

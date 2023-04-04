@@ -5,14 +5,6 @@ import android.os.Bundle
 import android.os.Environment
 import com.github.noledger.imagepicker.ImagePickerActivity
 import java.io.File
-
-/**
- * Abstract Provider class
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 abstract class BaseProvider(protected val activity: ImagePickerActivity) :
     ContextWrapper(activity) {
 

@@ -6,18 +6,10 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import android.webkit.MimeTypeMap
+import com.github.dhaval2404.imagepicker.R
 import com.github.noledger.imagepicker.ImagePicker
 import com.github.noledger.imagepicker.ImagePickerActivity
-import com.github.noledger.imagepicker.R
 import com.github.noledger.imagepicker.util.IntentUtils
-
-/**
- * Select image from Storage
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 class GalleryProvider(activity: ImagePickerActivity) :
     BaseProvider(activity) {
 

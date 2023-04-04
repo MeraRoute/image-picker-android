@@ -16,14 +16,6 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.text.SimpleDateFormat
 import java.util.*
-
-/**
- * File Utility Methods
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 object FileUtil {
 
     /**

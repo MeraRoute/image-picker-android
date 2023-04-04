@@ -5,20 +5,13 @@ import android.graphics.Bitmap
 import android.net.Uri
 import android.os.AsyncTask
 import android.os.Bundle
+import com.github.dhaval2404.imagepicker.R
 import com.github.noledger.imagepicker.ImagePicker
 import com.github.noledger.imagepicker.ImagePickerActivity
 import com.github.noledger.imagepicker.util.ExifDataCopier
 import com.github.noledger.imagepicker.util.FileUtil
 import com.github.noledger.imagepicker.util.ImageUtil
 import java.io.File
-
-/**
- * Compress Selected/Captured Image
- *
- * @author Dhaval Patel
- * @version 1.0
- * @since 04 January 2019
- */
 class CompressionProvider(activity: ImagePickerActivity) : BaseProvider(activity) {
 
     companion object {
@@ -120,7 +113,7 @@ class CompressionProvider(activity: ImagePickerActivity) : BaseProvider(activity
                     handleResult(file)
                 } else {
                     // Post Error
-                    setError(com.github.noledger.imagepicker.R.string.error_failed_to_compress_image)
+                    setError(R.string.error_failed_to_compress_image)
                 }
             }
         }.execute(uri)
