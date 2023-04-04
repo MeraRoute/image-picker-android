@@ -7,7 +7,6 @@ import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import com.github.dhaval2404.imagepicker.R
 import com.github.noledger.imagepicker.constant.ImageProvider
 import com.github.noledger.imagepicker.provider.CameraProvider
 import com.github.noledger.imagepicker.provider.CompressionProvider

@@ -4,7 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import androidx.appcompat.app.AlertDialog
-import com.github.dhaval2404.imagepicker.R
+import com.github.noledger.imagepicker.R
 import com.github.noledger.imagepicker.constant.ImageProvider
 import com.github.noledger.imagepicker.listener.DismissListener
 import com.github.noledger.imagepicker.listener.ResultListener

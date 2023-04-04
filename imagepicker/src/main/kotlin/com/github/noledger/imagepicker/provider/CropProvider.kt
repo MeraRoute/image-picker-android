@@ -6,9 +6,9 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
-import com.github.dhaval2404.imagepicker.R
 import com.github.noledger.imagepicker.ImagePicker
 import com.github.noledger.imagepicker.ImagePickerActivity
+import com.github.noledger.imagepicker.R
 import com.github.noledger.imagepicker.util.FileUtil
 import com.yalantis.ucrop.UCrop
 import java.io.File
