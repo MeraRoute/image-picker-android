@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.noledger.imagepicker.provider
 
 import android.Manifest
 import android.app.Activity
@@ -7,12 +7,12 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.core.app.ActivityCompat.requestPermissions
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
-import com.github.dhaval2404.imagepicker.R
-import com.github.dhaval2404.imagepicker.util.FileUtil
-import com.github.dhaval2404.imagepicker.util.IntentUtils
-import com.github.dhaval2404.imagepicker.util.PermissionUtil
+import com.github.noledger.imagepicker.ImagePicker
+import com.github.noledger.imagepicker.ImagePickerActivity
+import com.github.noledger.imagepicker.R
+import com.github.noledger.imagepicker.util.FileUtil
+import com.github.noledger.imagepicker.util.IntentUtils
+import com.github.noledger.imagepicker.util.PermissionUtil
 import java.io.File
 
 /**

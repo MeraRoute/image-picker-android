@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.github.dhaval2404.imagepicker.util
+package com.github.noledger.imagepicker.util
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

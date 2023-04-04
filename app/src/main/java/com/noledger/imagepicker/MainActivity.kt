@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.lifecycle.lifecycleScope
-import com.github.dhaval2404.imagepicker.ImagePicker
-import com.github.dhaval2404.imagepicker.util.FileUtil
+import com.github.noledger.imagepicker.ImagePicker
+import com.github.noledger.imagepicker.util.FileUtil
 import com.noledger.imagepicker.databinding.ActivityMainBinding
 import com.noledger.imagepicker.utils.ContentUriUtils
 import id.zelory.compressor.Compressor

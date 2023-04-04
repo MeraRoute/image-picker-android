@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker
+package com.github.noledger.imagepicker
 
 import androidx.core.content.FileProvider
 

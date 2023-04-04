@@ -1,13 +1,13 @@
-package com.github.dhaval2404.imagepicker
+package com.github.noledger.imagepicker
 
 import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import com.github.dhaval2404.imagepicker.constant.ImageProvider
-import com.github.dhaval2404.imagepicker.listener.DismissListener
-import com.github.dhaval2404.imagepicker.listener.ResultListener
-import com.github.dhaval2404.imagepicker.util.DialogHelper
+import com.github.noledger.imagepicker.constant.ImageProvider
+import com.github.noledger.imagepicker.listener.DismissListener
+import com.github.noledger.imagepicker.listener.ResultListener
+import com.github.noledger.imagepicker.util.DialogHelper
 import java.io.File
 
 /**

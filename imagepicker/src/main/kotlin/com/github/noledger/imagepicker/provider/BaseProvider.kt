@@ -1,9 +1,9 @@
-package com.github.dhaval2404.imagepicker.provider
+package com.github.noledger.imagepicker.provider
 
 import android.content.ContextWrapper
 import android.os.Bundle
 import android.os.Environment
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
+import com.github.noledger.imagepicker.ImagePickerActivity
 import java.io.File
 
 /**

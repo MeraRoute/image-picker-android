@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.util
+package com.github.noledger.imagepicker.util
 
 import android.content.ContentUris
 import android.content.Context
@@ -8,7 +8,7 @@ import android.os.Build
 import android.os.Environment
 import android.provider.DocumentsContract
 import android.provider.MediaStore
-import com.github.dhaval2404.imagepicker.ImagePickerActivity
+import com.github.noledger.imagepicker.ImagePickerActivity
 import java.io.File
 import java.io.FileOutputStream
 import java.io.IOException

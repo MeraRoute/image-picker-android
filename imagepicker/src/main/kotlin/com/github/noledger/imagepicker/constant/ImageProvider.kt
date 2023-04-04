@@ -1,4 +1,4 @@
-package com.github.dhaval2404.imagepicker.constant
+package com.github.noledger.imagepicker.constant
 
 /**
  * Define Image Provider
