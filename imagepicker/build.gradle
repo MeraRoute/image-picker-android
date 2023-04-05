@@ -42,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation 'com.google.android.material:material:1.8.0'
     def kotlin_version = "1.6.20"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
